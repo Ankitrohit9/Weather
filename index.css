@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(209, 227, 227);
+}
+
+.wehther {
+  margin-top: 10rem;
+  border: 2px solid rgb(43, 223, 226);
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px 1px rgb(136, 133, 133);
+
+  .mo {
+    display: flex;
+  }
+  .icon {
+    margin-left: 60%;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    margin-left: 1.6rem;
+  }
+  .re_hading {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40%;
+  }
+  .input {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 1rem;
+  }
+
+  .degree {
+    margin-top: 1rem;
+  }
+  #text_degree {
+    border: 0;
+    border-bottom: 2px solid black;
+    padding: 0.5rem;
+    outline: none;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  select {
+    border: 0;
+    border-bottom: 2px solid black;
+    padding: 0.5rem;
+    outline: none;
+    font-size: 1rem;
+    border-width: 100%;
+  }
+  .ty {
+    color: #989898;
+  }
+  #result {
+    border: 0;
+    border-bottom: 2px solid black;
+    padding: 0.5rem;
+    outline: none;
+    margin-bottom: 2rem;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #302c2c;
+  }
+  button {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid darkcyan;
+    background-color: deepskyblue;
+    color: antiquewhite;
+    font-size: 1.3rem;
+    font-weight: 800;
+    box-shadow: 0px 0px 10px 1px rgb(136, 133, 133);
+    &:focus {
+      border: 1px solid rgb(98, 174, 195);
+      color: deepskyblue;
+      background-color: #c2efe9;
+    }
+  }
+}
